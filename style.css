@@ -15,6 +15,12 @@ body {
     gap: 10px;
 }
 
+.btn-play{
+    margin-left: 200px;
+    height: 100px;
+    width: 200px;
+}
+
 .grid {
     width: 600px;
     height: 604px;
@@ -38,19 +44,19 @@ body {
 } */
 
 .spaceship {
-    background-image: url('./images/spaceship.png')
+    background-image: url('spaceship.png')
 }
 
 .laser {
-    background-image: url('./images/projectile.png')
+    background-image: url('projectile.png')
 }
 
 .alien {
-    background-image: url('./images/alien.png')
+    background-image: url('alien.png')
 }
 
 .hit {
-    background-image: url('./images/explosion.png')
+    background-image: url('explosion.png')
 }
 
 .message {

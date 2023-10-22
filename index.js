@@ -243,5 +243,6 @@ const appElement = document.querySelector('.app');
 // do all the things needed to draw the game
 setupGame(appElement);
 
+
 // play the game - start being able to move the ship
 play();
