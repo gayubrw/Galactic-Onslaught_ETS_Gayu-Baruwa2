@@ -25,7 +25,7 @@ document.getElementById('authForm').addEventListener('submit', function (e) {
 
             alert('Login berhasil!');
        
-            window.location.href = 'index.html';
+            window.location.href = 'app.html';
             
         } else {
           
@@ -68,7 +68,7 @@ const registerButton = document.getElementById('registerButton');
                     alert(data.error);
                 } else {
                    
-                    window.location.href = 'login.html';
+                    window.location.href = 'index.html';
                 }
             })
             .catch(error => {
